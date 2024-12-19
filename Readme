@@ -1,3 +1,28 @@
+
+Data Description
+The OXTS data files from the KITTI dataset contain sensor data related to the vehicle's state. Each row in the file represents a set of measurements and can be divided into the following parts:
+
+1. GPS Data (Latitude, Longitude, Altitude):
+1st Value: Latitude (in degrees)
+2nd Value: Longitude (in degrees)
+3rd Value: Altitude (in meters)
+2. IMU Data (Acceleration, Angular Velocity):
+4th to 6th Values: Vehicle velocity in the X, Y, Z directions (in meters per second)
+7th to 9th Values: Vehicle acceleration in the X, Y, Z axes of the local coordinate system (in meters per second squared)
+10th to 12th Values: Angular velocity in the X, Y, Z axes (in radians per second)
+3. Orientation Data:
+Other fields correspond to the vehicle's orientation, including yaw, pitch, roll, and heading.
+Prerequisite
+Before running the program, ensure the 2011_09_30_unzipped.zip file is extracted. Use the following steps:
+
+Locate the 2011_09_30_unzipped.zip file.
+Extract the file using a decompression tool (e.g., unzip command, WinRAR, or 7-Zip).
+Ensure the extracted folder is accessible by the program and retains the correct directory structure.
+
+
+
+
+
 根据 KITTI 数据集的文档，OXTS 数据文件中的每一行都有一组与车辆状态相关的传感器数据。每一行的数据可以分为以下几个部分：
 
 GPS 数据（经度、纬度、海拔）：
